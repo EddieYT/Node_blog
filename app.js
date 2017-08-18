@@ -8,6 +8,7 @@ const express = require('express'),
       config = require('./config/database'),
       passport = require('passport');
 
+const port = process.env.PORT || 8080;
 // Conncect to DB
 mongoose.connect(config.database);
 let db = mongoose.connection;
@@ -99,6 +100,6 @@ let users = require('./routes/users');
 app.use('/articles', articles);
 app.use('/users', users);
 
-app.listen(8080, function() {
+app.listen(port, function() {
     console.log('Server started on port 8080');
 });
