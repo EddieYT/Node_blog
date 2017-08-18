@@ -6,7 +6,6 @@
   "engines": {
     "node": "6.11.1"
   },
-  "config" : { "port" : "8080" },
   "scripts": {
     "start": "node app"
   },
