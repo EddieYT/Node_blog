@@ -1,0 +1,9 @@
+.alert-error {
+  color: #a94442;
+  background-color: #f2dede;
+}
+
+.alert-success_msg {
+  color: #3c763d;
+  background-color: #dff0d8;
+}
