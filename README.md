@@ -2,6 +2,8 @@
 A blog that implements CRUD features and User Validation.  
 * [Sample Site](https://et-blog.herokuapp.com/)
 
+> You may need to wait for 10 seconds before the site wakes up, since it's deployed on heroku.
+
 
 ## User instructions
 
